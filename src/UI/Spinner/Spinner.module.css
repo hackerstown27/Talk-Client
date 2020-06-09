@@ -1,0 +1,26 @@
+.Container {
+    position: absolute;
+    z-index: 150;
+    top:0;
+    left:0;
+    height:110vh;
+    width:100vw;
+    background: rgb(214, 214, 214, 0.2);
+    backdrop-filter: blur(3px)
+}
+
+.Spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0.7rem solid rgb(211, 211, 211);
+    border-radius: 50%;
+    border-top: 0.7rem solid #a6b1e1;
+    animation: spinner-rotate 1s infinite linear;
+}
+
+@keyframes spinner-rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}

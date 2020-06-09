@@ -1,0 +1,73 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.Input,
+#PhonePreffix {
+    margin: 0.6rem 0;
+    border-radius: 5px;
+    background: white;
+    font-size: 1.4rem;
+    font-family: "Raleway", sans-serif;
+    padding: 0.4rem 0.4rem;
+    color: #1b262c;
+}
+
+.Input:focus {
+    outline: none;
+    border-width: 1.5px;
+}
+
+.Input[type="date"],
+#Select {
+    margin-left: 1rem;
+}
+
+#PhonePreffix {
+    border: 1px solid #a6b1e1;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+
+#PhoneSuffix {
+    border-radius: 0 5px 5px 0;
+}
+
+.PhoneInput {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+#OTP{
+    display: block;
+    width: 15rem;
+    letter-spacing: 1.5rem;
+    text-indent: 1.5rem;
+    font-family: 'poppins', sans-serif;
+    margin: 3rem auto;
+}
+
+.Valid {
+    border: 1px solid #a6b1e1;
+}
+
+.InValid {
+    border: 1px solid #900c3f;
+}
+
+#Dropdown {
+    display: inline-block;
+    margin: 0 0.5rem;
+    padding: 0.2rem 0.5rem;
+}
+
+#FileInput {
+    display: none;
+}

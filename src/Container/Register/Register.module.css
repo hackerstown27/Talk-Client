@@ -1,0 +1,32 @@
+.Register{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Register input[type="text"], input[type="number"], input[type="password"]{
+    width: 90%;
+}
+
+.Register label{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #7f78d2;
+    font-size: 1.4rem;
+}
+
+.RegisterHeader{
+    font-family: 'Montserrat', sans-serif;
+    color: #481380;
+    margin-bottom: 2rem;
+}
+
+.LoginLink{
+    color: #323232;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+.Register button{
+    margin: 1rem 0;
+}

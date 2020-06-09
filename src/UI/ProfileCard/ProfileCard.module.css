@@ -1,0 +1,110 @@
+.Profile {
+    margin: 1rem auto;
+    width: 60vw;
+    box-shadow: 1px 1px 10px rgb(235, 235, 235);
+    border-radius: 1rem;
+    padding: 0rem 2rem;
+}
+
+.Btn {
+    text-align: right;
+}
+
+.Btn > button {
+    margin: 2rem 0.5rem 0;
+}
+
+.AvatarImg,
+.AvatarEdit {
+    height: 12rem;
+    width: 12rem;
+    object-fit: cover;
+    padding: 0.2rem;
+    border: 2px solid #a8a7a7;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.Avatar {
+    position: relative;
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.PersonelInfo {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.PersonelInfo h1 {
+    color: #888888;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0.3rem;
+}
+
+.PersonelInfo h2 {
+    color: #a1a1a1;
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin: 0.2rem;
+}
+
+.Info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 2rem auto;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.Info h2 {
+    color: #a1a1a1;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.Info h3 {
+    color: #b1b0b0;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.Online,
+.Offline,
+.Away {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.Online {
+    background: #a3f7bf;
+}
+
+.Offline {
+    background: #ec7373;
+}
+
+.Away {
+    background: #6b6b6b;
+}
+
+.AvatarEdit {
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 6rem);
+    z-index: 50;
+    background: rgba(2, 2, 2, 0.5);
+    font-family: "Raleway", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    align-items: center;
+}

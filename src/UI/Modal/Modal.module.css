@@ -1,0 +1,94 @@
+.Modal {
+    position: absolute;
+    border: 1px solid #464159;
+    border-radius: 5px;
+    width: 32rem;
+    height: 22rem;
+    top: 50vh;
+    margin-top: calc(-22rem / 2);
+    left: 50vw;
+    margin-left: calc(-32rem / 2);
+    z-index: 100;
+    background: #464159;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.ModalOpen {
+    animation: show-modal 0.3s 1 ease-in;
+}
+
+.ModalClosed {
+    animation: hide-modal 0.3s 1 ease-in;
+}
+
+.Header {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+    font-weight: 700;
+}
+
+.Title {
+    margin-top: 0.4rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.Close {
+    font-size: 1rem;
+    text-align: right;
+    padding: 0.5rem;
+}
+
+.Content {
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem;
+    height: calc(32rem - 20rem);
+    overflow-y: auto;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 1rem;
+    text-align: right;
+}
+
+.Footer button {
+    margin: 0 0.2rem 0.5rem;
+}
+
+@keyframes show-modal {
+    from {
+        top: -50vh;
+    }
+    to {
+        top: 50vh;
+    }
+}
+
+@keyframes hide-modal {
+    from {
+        top: 50vh;
+    }
+    to {
+        top: -50vh;
+    }
+}
+
+.Content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.Content::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.Content::-webkit-scrollbar-thumb {
+    background: rgb(138, 138, 138);
+    border-radius: 10px;
+}

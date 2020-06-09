@@ -1,0 +1,7 @@
+.Container{
+    border: 2px solid #7f78d2;
+    border-radius: 15px;
+    margin: 2rem 5rem 5rem;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.9);
+}

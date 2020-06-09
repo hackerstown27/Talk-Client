@@ -1,0 +1,16 @@
+.Search {
+    font-family: "Raleway", sans-serif;
+    display: block;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 1.5px solid #1b262c;
+    border-radius: 5px;
+    margin: 1rem 0;
+    height: 2.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Search:focus {
+    outline: none;
+}

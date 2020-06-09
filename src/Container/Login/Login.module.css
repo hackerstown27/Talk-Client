@@ -1,0 +1,26 @@
+.Login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Login input{
+    width: 90%;
+}
+
+.LoginHeader{
+    font-family: 'Montserrat', sans-serif;
+    color: #481380;
+    margin-bottom: 2.5rem;
+}
+
+.Link{
+    /* display: block; */
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    color: #7f78d2;
+}
+
+.Login button {
+    margin: 1rem 0 1rem;
+}

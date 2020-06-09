@@ -1,0 +1,26 @@
+.Inbox {
+    margin-left: 1rem;
+}
+
+.Content {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.Content hr {
+    border: 1px solid #7c7c7c;
+    background: #7c7c7c;
+}
+
+.Content::-webkit-scrollbar {
+    width: 4px;
+}
+
+.Content::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin: 0.5rem 0;
+}
+
+.Content::-webkit-scrollbar-thumb {
+    background: rgb(138, 138, 138);
+}

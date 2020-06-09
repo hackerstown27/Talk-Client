@@ -1,0 +1,50 @@
+.Options{
+    border: 2px solid #1b262c;
+    border-radius: 5px;
+    height: auto;
+}
+
+.Options {
+     list-style: none;
+}
+
+.Options > li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border: 1px solid #1b262c;
+    color: white;
+    background: #282729;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: end;
+}
+
+.Options > li:hover{
+    background: #1b262c;
+}
+
+.Option {
+   padding-top: 1rem; 
+   font-size: 1.1rem;
+}
+
+.Icon{
+    height: 3rem;
+}
+
+.Arrow {
+    box-sizing: border-box;
+    height: 1rem;
+    width: 1rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px 2px 0px 0px;
+    transform: rotate(45deg);
+    margin-top: 1rem;
+    justify-self: center;
+}
+
+.Arrow:hover{
+    border-width: 3px 3px 0px 0px;
+}

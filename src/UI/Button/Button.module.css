@@ -1,0 +1,48 @@
+.Button {
+    border-radius: 5px;
+    padding: 0.7rem;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.XSButton {
+    border-radius: 5px;
+    padding: 0.3rem;
+    color: white;
+    font-size: 0.8rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Button:disabled {
+    cursor: not-allowed;
+}
+
+.Button:focus{
+    outline: none;
+}
+
+.Block {
+    display: block;
+    width: 100%;
+}
+
+.Primary{
+    background: #7f78d2;
+    border: 1px solid #481380;
+}
+
+.Primary:hover {
+    background-color: #413c69;
+}
+
+.Secondary{
+    background: #5d5b6a;
+    border: 1px solid #323232;
+}
+
+.Secondary:hover {
+    background-color: #6c7b95;
+}
+

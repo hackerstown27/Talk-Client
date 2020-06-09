@@ -1,0 +1,39 @@
+.Alert {
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    margin: 1rem 0;
+    display: block;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    animation: show-alert 0.3s 1 linear;
+}
+
+
+.Success {
+    border: 1px solid #D4EDDA;
+    background: #D4EDDA;
+    color: #377245;
+}
+
+.Failure {
+    border: 1px solid #F8D7DA;
+    background: #F8D7DA;
+    color: #85373E;
+}
+
+.Info {
+    border: 1px solid #E2E3E5;
+    background: #E2E3E5;
+    color: #383D41;
+}
+
+@keyframes show-alert{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

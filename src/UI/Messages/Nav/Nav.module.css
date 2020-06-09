@@ -1,0 +1,35 @@
+.Online,
+.Offline,
+.Away {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 1.5rem;
+}
+
+.Offline {
+    background-color: red;
+}
+
+.Online {
+    background-color: greenyellow;
+}
+
+.Away {
+    background-color: rgb(144, 144, 144);
+}
+
+.Nav {
+    display: grid;
+    grid-template-columns: 0.1fr 4fr;
+    background: #7f78d2;
+    align-items: center;
+}
+
+.Header {
+    margin: 0 2rem;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+}

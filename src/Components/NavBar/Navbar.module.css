@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar > li {
+    display: inline;
+    margin-top: 0.5rem;
+}
+
+.Navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #393e46;
+    margin: 0;
+    padding: 0 2rem 0.4rem;
+}
+
+.Logo img {
+    height: 2.5rem;
+    margin: 0 1rem 0 6rem;
+    padding-top: 0.3rem;
+}
+
+.Logo {
+    justify-self: start;
+}
+
+.NavBrand {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.Menu {
+    justify-self: end;
+}

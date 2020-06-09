@@ -1,0 +1,5 @@
+.Friends{
+    padding: 3rem 5rem;
+    display: grid;
+    grid-template-columns: 32% 73%;
+}

@@ -1,0 +1,32 @@
+.InputBox {
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+}
+
+.InputBox input{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    border-width: 1px 0 0;
+}
+
+.InputBox input:focus{
+    outline: none;
+}
+
+.InputBox button{
+    padding: 0.65rem;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    border-width: 0;
+    background: #7f78d2;
+    color: white;
+}
+
+.InputBox button:hover{
+    background: #36353b;
+    color: white;
+}
